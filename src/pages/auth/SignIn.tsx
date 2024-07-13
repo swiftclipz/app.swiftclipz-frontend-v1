@@ -1,15 +1,15 @@
 import SiteLogo from "../../components/logo/SiteLogo";
-import RegisterForm from "../../components/forms/RegisterForm";
+import LoginForm from "../../components/forms/LoginForm";
 
-const SignUp = () => {
+const SignIn = () => {
   return (
     <div className="w-full bg-whiteF5">
       <div className="text-center pt-10 px-8 xl:px-24">
         <SiteLogo />
       </div>
-      <RegisterForm />
+      <LoginForm />
     </div>
   );
 };
 
-export default SignUp;
+export default SignIn;
