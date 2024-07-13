@@ -38,7 +38,7 @@ const LoginForm = () => {
       </div>
       <div className="flex flex-col items-center gap-4 pt-4">
         <span>
-          <Link to="/login" className="text-[#237EEA]">
+          <Link to="/auth/reset-password" className="text-[#237EEA]">
             Forgot Password?
           </Link>
         </span>
