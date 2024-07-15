@@ -73,3 +73,17 @@ body a {
   background-color: #191919;
   color: #f9f9f9;
 }
+
+.otp-div div input:not(.form-control, .form-check-input) {
+  width: 3.5em !important;
+  height: 3.5em !important;
+  background-color: #FFFFFF !important;
+  color: #000000;
+  border: 1px solid #000000 !important;
+  font-weight: bolder;
+  border-radius: 0.2rem !important;
+}
+
+.otp-div div span {
+  color: transparent;
+}
