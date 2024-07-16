@@ -9,6 +9,7 @@ import SignIn from "../pages/auth/SignIn";
 import CodeVerification from "../pages/auth/CodeVerification";
 import ForgetPassword from "../pages/auth/ForgetPassword";
 import VerificationCodeSent from "../pages/auth/VerificationCodeSent";
+import Swiftclipz from "../pages/swiftclipz/Swiftclipz";
 
 const RootRouter = () => {
   return (
@@ -19,6 +20,7 @@ const RootRouter = () => {
         <Route path="/auth/reset-password" element={<ForgetPassword />} />
         <Route path="/auth/code-sent" element={<VerificationCodeSent />} />
         <Route path="/auth/code-verification" element={<CodeVerification />} />
+        <Route path="/swiftclipz" element={<Swiftclipz />} />
       </Routes>
     </ScrollToTop>
   );
