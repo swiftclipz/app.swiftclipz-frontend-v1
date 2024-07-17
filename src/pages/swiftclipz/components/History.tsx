@@ -1,4 +1,4 @@
-import React from "react";
+import images from "../../../constants/images";
 
 const History = () => {
   const data = [
@@ -14,6 +14,12 @@ const History = () => {
       image: "",
       text: "Hi Josh",
     },
+    {
+      date: "Tuesday",
+      agent: "PC",
+      image: images.uploadedImage.src,
+      text: "",
+    },
   ];
 
   return (
@@ -28,32 +34,19 @@ const History = () => {
                 <span className="">{agent}</span>
               </div>
             </div>
-            <div className="p-2 rounded-lg bg-[#D2D1F4] shadow-custom-black-25">
-              <span>{image && ""}</span>
-              <span>{text}</span>
+            <div className="flex flex-col gap-2">
+              <div>
+                {text && (
+                  <div className="p-2 rounded-lg bg-[#D2D1F4] shadow-custom-black-25">
+                    {text}
+                  </div>
+                )}
+              </div>
+              <span>{image && <img src={image} />}</span>
             </div>
           </div>
         </div>
       ))}
-
-      {/* <div className="flex flex-col items-center gap-4">
-        <span>Yesterday</span>
-        <div className="flex gap-2">
-          <div className="relative inline-flex">
-            <div className="w-12 h-12 aspect-square flex items-center justify-center rounded-full bg-[#E8F1F9]">
-              <span className="">M</span>
-            </div>
-          </div>
-
-          <div>
-            <img src="" alt="" />
-            <div className="p-2 rounded-lg bg-[#D2D1F4] shadow-custom-black-25">
-              Swiftclip is an efficient web application that enables users to
-              clip and save important content from the web seamlessly....
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
