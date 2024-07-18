@@ -69,7 +69,10 @@ const History = () => {
               <span>
                 {image && (
                   <div className="w-fit relative">
-                    <img src={image} className="" />
+                    <img
+                      src={image}
+                      className="rounded-lg shadow-custom-black-25"
+                    />
                     <span className="absolute left-0 bottom-8 py-2 px-7 transform translate-x-1/2 font-bold rounded-lg bg-[#D2D1F4]">
                       my-wallpaper.jpg
                     </span>
