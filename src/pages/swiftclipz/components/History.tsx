@@ -36,7 +36,7 @@ const History = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col gap-5 px-10 py-10 text-[#1D1D1D] bg-[#DBDAF6]">
+    <div className="w-full min-h-screen flex flex-col gap-5 px-5 py-2 text-[#1D1D1D] bg-[#DBDAF6]">
       <h4 className="text-2xl pb-4 border-b-[1px] border-[#D2D1F4]">History</h4>
       {data.map(({ date, agent, image, text }, index) => (
         <div className="flex flex-col gap-2" key={index}>

@@ -16,7 +16,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen flex flex-col items-center gap-10 py-10 text-[#1D1D1D] bg-[#D2D1F4]">
+    <div className="w-[50%] min-h-screen flex flex-col items-center gap-10 py-2 text-[#1D1D1D] bg-[#D2D1F4]">
       <div>
         <SiteLogo />
       </div>

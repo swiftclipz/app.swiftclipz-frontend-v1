@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import {
   IoSearchOutline,
   IoArrowUpOutline,
@@ -16,8 +15,8 @@ const MainSection = () => {
   };
 
   return (
-    <div className="w-full min-h-screen flex flex-col gap-5 px-10 py-10 bg-[#D2D1F4]">
-      <div className="min-h-96 flex flex-col justify-between">
+    <div className="w-full min-h-screen flex flex-col gap-5 px-5 py-2 bg-[#D2D1F4]">
+      <div className="min-h-screen flex flex-col justify-between">
         <div className="flex items-center gap-4">
 
           {/* custom search div */}
@@ -28,7 +27,7 @@ const MainSection = () => {
             <input
               type="text"
               placeholder="Search..."
-              className="w-full h-12 pl-12 pr-4 text-[#202020] bg-white rounded-full outline-none"
+              className="w-full h-12 pl-12 pr-4 text-[#202020] bg-[#f6f6f6] rounded-full outline-none"
             />
           </div>
           <span>
